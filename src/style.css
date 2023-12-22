@@ -1,0 +1,8 @@
+body {
+  background-image: url("https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+}
