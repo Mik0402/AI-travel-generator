@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
 
     <title>Travel Itinerary Generator</title>
@@ -11,7 +12,7 @@
     <main>
       <div class="container-1">
         <h1>AI Travel Itinerary Generator</h1>
-        <form>
+        <form id="itinerary-generator-form">
           <input
             type="text"
             placeholder="Enter the destination you are traveling to"
@@ -24,11 +25,7 @@
         </form>
       </div>
       <div class="container-2">
-        <div class="itinerary">
-          The itinerary will go here
-          <br />
-          the itinerary
-        </div>
+        <div class="itinerary" id="itinerary"></div>
       </div>
     </main>
     <footer>
