@@ -3,6 +3,58 @@ body {
     url("https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
   text-align: center;
+  margin-bottom: 20px;
+}
+a {
+  color: #73c8d9;
+}
+.container-1,
+.container-2 {
+  background: #efe1cb;
+  max-width: 600px;
+  color: black;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px black;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+form {
+  padding: 30px;
+  display: flex;
+}
+.instructions {
+  padding: 16px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 20px;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #73c8d9;
+  color: white;
+  width: 100px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 14px 24px;
+}
+.itinerary {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  text-align: left;
+  font-weight: bold;
+}
+footer {
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
 }
