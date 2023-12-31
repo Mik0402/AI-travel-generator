@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg");
+  background: url("https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -46,15 +45,26 @@ form {
   font-size: 16px;
   border-radius: 10px;
   padding: 14px 24px;
+  box-shadow: 0px 2px 2px gray;
 }
 .itinerary {
   font-size: 16px;
-  padding: 20px;
   line-height: 2;
   text-align: left;
   font-weight: bold;
 }
+.hidden {
+  display: none;
+}
 footer {
-  color: white;
+  color: black;
   font-size: 15px;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.generating {
+  animation: blink 1s step-start 0s infinite;
 }
